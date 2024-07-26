@@ -20,12 +20,15 @@ with tab2:
     user_month = st.selectbox('직관 월', ['3','4','5','6','7','8'])
     user_day = kbo_form.text_input('날짜 입력하세요):', 'dd')
     user_hour = st.selectbox('직관 시간', ['14:00','17:00','18:00','18:30'])
-
+    text = kbo_form.text_input('방명록을 남겨보세요', '')
+    text_list = []
+    text_list.append(text)
     say_it = '우천 취소될 확률은 9.9 %'
 
 
     if submit:
         kbo_form.subheader(say_it)
+        kbo_form.subheader(text_list)
     else:
         kbo_form.subheader('&nbsp;')
 
