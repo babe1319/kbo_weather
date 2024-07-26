@@ -21,7 +21,7 @@ with tab2:
     user_day = kbo_form.text_input('날짜 입력하세요):', 'dd')
     user_hour = st.selectbox('직관 시간', ['14:00','17:00','18:00','18:30'])
 
-    say_it = '우천 취소될 확률은'
+    say_it = '우천 취소될 확률은 9.9 %'
 
 
     if submit:
