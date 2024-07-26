@@ -33,8 +33,8 @@ with tab2:
 
 
 
-import numpy as np
-import joblib
-model = joblib.load('random_forest_model.pkl')
-feature = np.array([10, 1, 7, 1, 2, 1, 70]).reshape(1, -1)
-y_pred = model.predict(feature)
+# import numpy as np
+# import joblib
+# model = joblib.load('random_forest_model.pkl')
+# feature = np.array([10, 1, 7, 1, 2, 1, 70]).reshape(1, -1)
+# y_pred = model.predict(feature)
